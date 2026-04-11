@@ -1,0 +1,6 @@
+robocopy "D:\dev\Anno-117\[Misc] Custom Player Colors (ewjax)\data" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Custom Player Colors (ewjax)\data" /mir
+copy /u "D:\dev\Anno-117\[Misc] Custom Player Colors (ewjax)\modinfo.json" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Custom Player Colors (ewjax)"
+copy /u "D:\dev\Anno-117\[Misc] Custom Player Colors (ewjax)\thumbnail.jpg" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Custom Player Colors (ewjax)"
+copy /u "D:\dev\Anno-117\[Misc] Custom Player Colors (ewjax)\start.bat" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Custom Player Colors (ewjax)"
+copy /u "D:\dev\Anno-117\[Misc] Custom Player Colors (ewjax)\custom_npc_colour_picker.bin" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Custom Player Colors (ewjax)"
+

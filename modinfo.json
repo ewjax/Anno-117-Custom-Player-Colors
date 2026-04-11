@@ -1,0 +1,101 @@
+{
+  "Version": "2.0.0",
+  "Anno": 8,
+  "ModID": "custom-player-colors-ewjax",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Options": {
+    "custom_diana_color": {
+      "label": "Diana - Custom Map Icon Color",
+      "default": "-855310"
+    },
+    "custom_valeria_color": {
+      "label": "Valeria - Custom Map Icon Color",
+      "default": "-855310"
+    },
+    "custom_procurator_color": {
+      "label": "Procurator - Custom Map Icon Color",
+      "default": "-855310"
+    },
+    "custom_manx_color": {
+      "label": "Manx - Custom Map Icon Color",
+      "default": "-855310"
+    },
+    "custom_voada_color": {
+      "label": "Voada - Custom Sail Color",
+      "default": "-14064059"
+    }
+  },
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "Custom Player Colors (ewjax)",
+    "English": "Custom Player Colors (ewjax)",
+    "French": "Custom Player Colors (ewjax)",
+    "German": "Custom Player Colors (ewjax)",
+    "Italian": "Custom Player Colors (ewjax)",
+    "Japanese": "Custom Player Colors (ewjax)",
+    "Korean": "Custom Player Colors (ewjax)",
+    "Polish": "Custom Player Colors (ewjax)",
+    "Russian": "Custom Player Colors (ewjax)",
+    "Spanish": "Custom Player Colors (ewjax)",
+    "Taiwanese": "Custom Player Colors (ewjax)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "#  Custom Player Colors \n\n This mod allows creation of additional Player banner colors",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "ewjax",
+  "CreatorContact": "",
+  "Image": null
+}
