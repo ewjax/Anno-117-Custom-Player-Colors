@@ -1,13 +1,10 @@
 <ModOps>
 
-    <!-- START: ============================ Register custom colors ========================= -->
-    <ModOp Type="add" GUID="2002447"
-        Path="/Values/ParticipantRepresentationFeature/ParticipantColors">
+    <!-- Asset ModOp workaround: use it once before you use asset modops -->
+    <ModOp Add="/AssetList/Groups[last()]"><Group><Assets /></Group></ModOp>
 
-        <!-- ========================== tweakable custom player color - first in list ===================== -->
-        <Item>
-            <Color>2000101090</Color>
-        </Item>
+    <!-- START: ============================ Register custom colors ========================= -->
+	<ModOp Add="@2002447/ParticipantRepresentationFeature/ParticipantColors">
 
         <!-- =================== custom colors from ewjax =================== -->
         <Item>
@@ -128,6 +125,11 @@
         </Item>
         <Item>
             <Color>2000101105</Color>
+        </Item>
+
+        <!-- ========================== tweakable custom player color - last in list ===================== -->
+        <Item>
+            <Color>2000101090</Color>
         </Item>
 
     </ModOp>
@@ -929,6 +931,7 @@
         </Asset>
         <!-- END: ========================== More colors, from discord user Koda Uzamaki ===================== -->
 
+
         <!-- START: ============== set up new NPC colors for rvial AI's ============== -->
         <Asset>
             <Template>ParticipantColor</Template>
@@ -936,7 +939,6 @@
                 <Standard>
                     <GUID>2000101091</GUID>
                     <Name>Custom Dorian Color</Name>
-                    <ID>CUSTOM_DORIAN_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -951,13 +953,13 @@
                         <Tritanopia>-6717126</Tritanopia>
                         <None>-6717126</None>
                     </ParticipantInGameColor>
-                    <IsPlayerColor>1</IsPlayerColor>
                 </ParticipantColor>
                 <Locked>
                     <DefaultLockedState>0</DefaultLockedState>
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101091</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -967,7 +969,6 @@
                 <Standard>
                     <GUID>2000101092</GUID>
                     <Name>Custom Tarragon Color</Name>
-                    <ID>CUSTOM_TARRAGON_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -982,7 +983,6 @@
                         <Tritanopia>-13019533</Tritanopia>
                         <None>-13019533</None>
                     </ParticipantInGameColor>
-                    <IsPlayerColor>1</IsPlayerColor>
                 </ParticipantColor>
                 <Locked>
                     <DefaultLockedState>0</DefaultLockedState>
@@ -990,6 +990,7 @@
                     <VisibleWhenLocked>1</VisibleWhenLocked>
                 </Locked>
                 <Text>
+                    <OasisId>2000101092</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -999,7 +1000,6 @@
                 <Standard>
                     <GUID>2000101093</GUID>
                     <Name>Custom Licia Ma Color</Name>
-                    <ID>CUSTOM_LICIAMA_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1014,13 +1014,13 @@
                         <Tritanopia>-13544902</Tritanopia>
                         <None>-13544902</None>
                     </ParticipantInGameColor>
-                    <IsPlayerColor>1</IsPlayerColor>
                 </ParticipantColor>
                 <Locked>
                     <DefaultLockedState>0</DefaultLockedState>
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101093</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1030,7 +1030,6 @@
                 <Standard>
                     <GUID>2000101094</GUID>
                     <Name>Custom Athr Color</Name>
-                    <ID>CUSTOM_ATHR_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1050,6 +1049,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101094</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1059,7 +1059,6 @@
                 <Standard>
                     <GUID>2000101095</GUID>
                     <Name>Custom Zara Color</Name>
-                    <ID>CUSTOM_ZARA_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1074,13 +1073,13 @@
                         <Tritanopia>-11496556</Tritanopia>
                         <None>-11496556</None>
                     </ParticipantInGameColor>
-                    <IsPlayerColor>1</IsPlayerColor>
                 </ParticipantColor>
                 <Locked>
                     <DefaultLockedState>0</DefaultLockedState>
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101095</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1090,7 +1089,6 @@
                 <Standard>
                     <GUID>2000101096</GUID>
                     <Name>Custom Concordia Color</Name>
-                    <ID>CUSTOM_CONCORDIA_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1110,6 +1108,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101096</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1119,7 +1118,6 @@
                 <Standard>
                     <GUID>2000101097</GUID>
                     <Name>Custom Neferneru Color</Name>
-                    <ID>CUSTOM_NEFERNERU_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1139,6 +1137,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101097</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1148,7 +1147,6 @@
                 <Standard>
                     <GUID>2000101098</GUID>
                     <Name>Custom Calidus Color</Name>
-                    <ID>CUSTOM_CALIDUS_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1168,6 +1166,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101098</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1177,7 +1176,6 @@
                 <Standard>
                     <GUID>2000101099</GUID>
                     <Name>Custom Julia Color</Name>
-                    <ID>CUSTOM_JULIA_COLOR</ID>
                 </Standard>
                 <ParticipantColor>
                     <ParticipantUIColor>
@@ -1197,6 +1195,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101099</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1231,7 +1230,10 @@
                     <Scope>Account</Scope>
                     <VisibleWhenLocked>1</VisibleWhenLocked>
                 </Locked>
-                <Text />
+                <Text>
+                    <OasisId>2000101100</OasisId>
+                </Text>
+
             </Values>
         </Asset>
 
@@ -1262,7 +1264,9 @@
                     <Scope>Account</Scope>
                     <VisibleWhenLocked>1</VisibleWhenLocked>
                 </Locked>
-                <Text />
+                <Text>
+                    <OasisId>2000101101</OasisId>
+                </Text>
             </Values>
         </Asset>
 
@@ -1293,7 +1297,9 @@
                     <Scope>Account</Scope>
                     <VisibleWhenLocked>1</VisibleWhenLocked>
                 </Locked>
-                <Text />
+                <Text>
+                    <OasisId>2000101102</OasisId>
+                </Text>
             </Values>
         </Asset>
 
@@ -1324,7 +1330,9 @@
                     <Scope>Account</Scope>
                     <VisibleWhenLocked>1</VisibleWhenLocked>
                 </Locked>
-                <Text />
+                <Text>
+                    <OasisId>2000101103</OasisId>
+                </Text>
             </Values>
         </Asset>
 
@@ -1353,6 +1361,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101104</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -1382,6 +1391,7 @@
                     <Scope>Account</Scope>
                 </Locked>
                 <Text>
+                    <OasisId>2000101105</OasisId>
                 </Text>
             </Values>
         </Asset>

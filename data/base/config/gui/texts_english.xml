@@ -2,7 +2,7 @@
 <ModOps>
     <ModOp Add="//TextExport/Texts">
 
-        <!-- START: ----------------------------- Custom Color Names ------------------------------- -->
+        <!-- START: =========================== Custom Color Names ============================== -->
         <Text>
             <LineId>2000101000</LineId>
             <Text>Predefined - Bright Red</Text>
@@ -35,7 +35,7 @@
             <LineId>2000101007</LineId>
             <Text>Predefined - Alabaster White</Text>
         </Text>
-        <!-- END: ----------------------------- Custom Color Names ------------------------------- -->
+        <!-- END: =========================== Custom Color Names ============================== -->
 
         <!-- START: =================== More custom colors from Taludas ============== -->
         <Text>
@@ -72,7 +72,7 @@
         </Text>
         <!-- END: =================== More custom colors from Taludas ============== -->
 
-        <!-- START: ----------------------------- More colors, from discord user Koda Uzamaki ------------------------------- -->
+        <!-- START: =========================== More colors, from discord user Koda Uzamaki ============================== -->
         <Text>
             <LineId>2000101057</LineId>
             <Text>Predefined - Imperial Green</Text>
@@ -97,14 +97,75 @@
             <LineId>2000101062</LineId>
             <Text>Predefined - Dark Imperial Purpel</Text>
         </Text>
-        <!-- END: ----------------------------- More colors, from discord user Koda Uzamaki ------------------------------- -->
+        <!-- END: =========================== More colors, from discord user Koda Uzamaki ============================== -->
 
-        <!-- START: ----------------------------- tweakable customizable color for player character ------------------------------- -->
+        <!-- START: =========================== tweakable customizable color for player character ============================== -->
         <Text>
             <LineId>2000101090</LineId>
             <Text>Tweakable - Custom Player Color</Text>
         </Text>
-        <!-- END: ----------------------------- tweakable customizable color for player character ------------------------------- -->
+        <!-- END: =========================== tweakable customizable color for player character ============================== -->
+
+        <Text>
+            <LineId>2000101091</LineId>
+            <Text>Custom Dorian Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101092</LineId>
+            <Text>Custom Tarragon Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101093</LineId>
+            <Text>Custom Licia Ma Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101094</LineId>
+            <Text>Custom Athr Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101095</LineId>
+            <Text>Custom Zara Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101096</LineId>
+            <Text>Custom Concordia Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101097</LineId>
+            <Text>Custom Neferneru Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101098</LineId>
+            <Text>Custom Calidus Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101099</LineId>
+            <Text>Custom Julia Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101100</LineId>
+            <Text>Custom Diana Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101101</LineId>
+            <Text>Custom Valeria Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101102</LineId>
+            <Text>Custom Procurator Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101103</LineId>
+            <Text>Custom Manx Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101104</LineId>
+            <Text>Custom Voada Color</Text>
+        </Text>
+        <Text>
+            <LineId>2000101105</LineId>
+            <Text>Custom Caeso Color</Text>
+        </Text>
 
     </ModOp>
 </ModOps>
