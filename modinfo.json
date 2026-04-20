@@ -17,6 +17,46 @@
     "Incompatible": []
   },
   "Options": {
+    "custom_player_color": {
+      "label": "Customizable Player Color",
+      "default": "-1"
+    },
+    "custom_dorian_color": {
+      "label": "Custom Dorian Color",
+      "default": "-736208"
+    },
+    "custom_tarragon_color": {
+      "label": "Custom Tarragon Color",
+      "default": "-14261860"
+    },
+    "custom_liciama_color": {
+      "label": "Custom Licia Ma Color",
+      "default": "-16030173"
+    },
+    "custom_athr_color": {
+      "label": "Custom Athr Iorgwyn Color",
+      "default": "-2987746"
+    },
+    "custom_zara_color": {
+      "label": "Custom Zara Nitu Color",
+      "default": "-10823986"
+    },
+    "custom_concordia_color": {
+      "label": "Custom Concordia Color",
+      "default": "-490631"
+    },
+    "custom_neferneru_color": {
+      "label": "Custom Neferneru Color",
+      "default": "-16680593"
+    },
+    "custom_calidus_color": {
+      "label": "Custom Calidus Color",
+      "default": "-9294025"
+    },
+    "custom_julia_color": {
+      "label": "Custom Julia Color",
+      "default": "-16680593"
+    },
     "custom_diana_color": {
       "label": "Diana - Custom Map Icon Color",
       "default": "-855310"
@@ -34,7 +74,11 @@
       "default": "-855310"
     },
     "custom_voada_color": {
-      "label": "Voada - Custom Sail Color",
+      "label": "Voada - Custom Color",
+      "default": "-6940391"
+    },
+    "custom_caeso_color": {
+      "label": "Caeso - Custom Color",
       "default": "-6940391"
     }
   },

@@ -3,6 +3,12 @@
     <!-- START: ============================ Register custom colors ========================= -->
     <ModOp Type="add" GUID="2002447"
         Path="/Values/ParticipantRepresentationFeature/ParticipantColors">
+
+        <!-- ========================== tweakable custom player color - first in list ===================== -->
+        <Item>
+            <Color>2000101090</Color>
+        </Item>
+
         <!-- =================== custom colors from ewjax =================== -->
         <Item>
             <Color>2000101000</Color>
@@ -75,6 +81,35 @@
             <Color>2000101062</Color>
         </Item>
 
+        <!-- ========================== custom Rival colors ===================== -->
+        <Item>
+            <Color>2000101091</Color>
+        </Item>
+        <Item>
+            <Color>2000101092</Color>
+        </Item>
+        <Item>
+            <Color>2000101093</Color>
+        </Item>
+        <Item>
+            <Color>2000101094</Color>
+        </Item>
+        <Item>
+            <Color>2000101095</Color>
+        </Item>
+        <Item>
+            <Color>2000101096</Color>
+        </Item>
+        <Item>
+            <Color>2000101097</Color>
+        </Item>
+        <Item>
+            <Color>2000101098</Color>
+        </Item>
+        <Item>
+            <Color>2000101099</Color>
+        </Item>
+
         <!-- ========================== custom NPC colors ===================== -->
         <Item>
             <Color>2000101100</Color>
@@ -91,16 +126,54 @@
         <Item>
             <Color>2000101104</Color>
         </Item>
+        <Item>
+            <Color>2000101105</Color>
+        </Item>
 
     </ModOp>
     <!-- END: ============================ Register custom colors ========================= -->
 
-
-
-    <!-- =================== Define some custome colors =================== -->
+    <!-- =================== Define some pre-defined custome colors =================== -->
     <ModOp GUID="2002447" Type="addNextSibling">
 
-        <!-- START: =================== custom colors from ewjax =================== -->
+        <!-- =================== Tweakable custom player color =================== -->
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101090</GUID>
+                    <Name>ParticipantColorCustomPlayer</Name>
+                    <ID>PARTICIPANT_CUSTOM_COLOR_PLAYER</ID>
+                </Standard>
+                <ParticipantColor>
+                    <!-- colors for Diplomacy screen, province and minimap symbols, etc -->
+                    <ParticipantUIColor>
+                        <Deuteranopia>-5592406</Deuteranopia>
+                        <Protanopia>-5592406</Protanopia>
+                        <Tritanopia>-5592406</Tritanopia>
+                        <None>-5592406</None>
+                    </ParticipantUIColor>
+                    <!-- colors for ship accent colors, sail colors, ship selection circles, etc -->
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-5592406</Deuteranopia>
+                        <Protanopia>-5592406</Protanopia>
+                        <Tritanopia>-5592406</Tritanopia>
+                        <None>-5592406</None>
+                    </ParticipantInGameColor>
+                    <IsPlayerColor>1</IsPlayerColor>
+                </ParticipantColor>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text>
+                   <OasisId>2000101090</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+
+        <!-- START: =================== predefined custom colors from ewjax =================== -->
         <!-- Custom color Bright Red-->
         <Asset>
             <Template>ParticipantColor</Template>
@@ -384,7 +457,7 @@
         </Asset>
         <!-- END: =================== custom colors from ewjax =================== -->
 
-        <!-- START: =================== More custom colors from Taludas ============== -->
+        <!-- START: =================== More predefined custom colors from Taludas ============== -->
         <Asset>
             <Template>ParticipantColor</Template>
             <Values>
@@ -643,7 +716,7 @@
         </Asset>
         <!-- END: =================== More custom colors from Taludas ============== -->
 
-        <!-- START: ========================== More colors, from discord user Koda Uzamaki ===================== -->
+        <!-- START: ========================== More predefined colors, from discord user Koda Uzamaki ===================== -->
         <!-- Custom Dark Green -->
         <Asset>
             <Template>ParticipantColor</Template>
@@ -856,8 +929,281 @@
         </Asset>
         <!-- END: ========================== More colors, from discord user Koda Uzamaki ===================== -->
 
-        <!-- START: ============== set up new NPC colors for Diana, Valeria, Procruator, Manx============== -->
+        <!-- START: ============== set up new NPC colors for rvial AI's ============== -->
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101091</GUID>
+                    <Name>Custom Dorian Color</Name>
+                    <ID>CUSTOM_DORIAN_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-736208</Deuteranopia>
+                        <Protanopia>-736208</Protanopia>
+                        <Tritanopia>-736208</Tritanopia>
+                        <None>-736208</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-6717126</Deuteranopia>
+                        <Protanopia>-6717126</Protanopia>
+                        <Tritanopia>-6717126</Tritanopia>
+                        <None>-6717126</None>
+                    </ParticipantInGameColor>
+                    <IsPlayerColor>1</IsPlayerColor>
+                </ParticipantColor>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101092</GUID>
+                    <Name>Custom Tarragon Color</Name>
+                    <ID>CUSTOM_TARRAGON_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-14261860</Deuteranopia>
+                        <Protanopia>-14261860</Protanopia>
+                        <Tritanopia>-14261860</Tritanopia>
+                        <None>-14261860</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-13019533</Deuteranopia>
+                        <Protanopia>-13019533</Protanopia>
+                        <Tritanopia>-13019533</Tritanopia>
+                        <None>-13019533</None>
+                    </ParticipantInGameColor>
+                    <IsPlayerColor>1</IsPlayerColor>
+                </ParticipantColor>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101093</GUID>
+                    <Name>Custom Licia Ma Color</Name>
+                    <ID>CUSTOM_LICIAMA_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-16030173</Deuteranopia>
+                        <Protanopia>-16030173</Protanopia>
+                        <Tritanopia>-16030173</Tritanopia>
+                        <None>-16030173</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-13544902</Deuteranopia>
+                        <Protanopia>-13544902</Protanopia>
+                        <Tritanopia>-13544902</Tritanopia>
+                        <None>-13544902</None>
+                    </ParticipantInGameColor>
+                    <IsPlayerColor>1</IsPlayerColor>
+                </ParticipantColor>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101094</GUID>
+                    <Name>Custom Athr Color</Name>
+                    <ID>CUSTOM_ATHR_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-2987746</Deuteranopia>
+                        <Protanopia>-2987746</Protanopia>
+                        <Tritanopia>-2987746</Tritanopia>
+                        <None>-2987746</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-2987746</Deuteranopia>
+                        <Protanopia>-2987746</Protanopia>
+                        <Tritanopia>-2987746</Tritanopia>
+                        <None>-2987746</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101095</GUID>
+                    <Name>Custom Zara Color</Name>
+                    <ID>CUSTOM_ZARA_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-10823986</Deuteranopia>
+                        <Protanopia>-10823986</Protanopia>
+                        <Tritanopia>-10823986</Tritanopia>
+                        <None>-10823986</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-11496556</Deuteranopia>
+                        <Protanopia>-11496556</Protanopia>
+                        <Tritanopia>-11496556</Tritanopia>
+                        <None>-11496556</None>
+                    </ParticipantInGameColor>
+                    <IsPlayerColor>1</IsPlayerColor>
+                </ParticipantColor>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101096</GUID>
+                    <Name>Custom Concordia Color</Name>
+                    <ID>CUSTOM_CONCORDIA_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-490631</Deuteranopia>
+                        <Protanopia>-490631</Protanopia>
+                        <Tritanopia>-490631</Tritanopia>
+                        <None>-490631</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-490631</Deuteranopia>
+                        <Protanopia>-490631</Protanopia>
+                        <Tritanopia>-490631</Tritanopia>
+                        <None>-490631</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101097</GUID>
+                    <Name>Custom Neferneru Color</Name>
+                    <ID>CUSTOM_NEFERNERU_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-16680593</Deuteranopia>
+                        <Protanopia>-16680593</Protanopia>
+                        <Tritanopia>-16680593</Tritanopia>
+                        <None>-16680593</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-14585750</Deuteranopia>
+                        <Protanopia>-14585750</Protanopia>
+                        <Tritanopia>-14585750</Tritanopia>
+                        <None>-14585750</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101098</GUID>
+                    <Name>Custom Calidus Color</Name>
+                    <ID>CUSTOM_CALIDUS_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-9294025</Deuteranopia>
+                        <Protanopia>-9294025</Protanopia>
+                        <Tritanopia>-9294025</Tritanopia>
+                        <None>-9294025</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-9292227</Deuteranopia>
+                        <Protanopia>-9292227</Protanopia>
+                        <Tritanopia>-9292227</Tritanopia>
+                        <None>-9292227</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101099</GUID>
+                    <Name>Custom Julia Color</Name>
+                    <ID>CUSTOM_JULIA_COLOR</ID>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-16680593</Deuteranopia>
+                        <Protanopia>-16680593</Protanopia>
+                        <Tritanopia>-16680593</Tritanopia>
+                        <None>-16680593</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-14585750</Deuteranopia>
+                        <Protanopia>-14585750</Protanopia>
+                        <Tritanopia>-14585750</Tritanopia>
+                        <None>-14585750</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
+        <!-- END: ============== set up new NPC colors for rvial AI's ============== -->
 
+
+        <!-- START: ============== set up new NPC colors for Diana, Valeria, Procruator, Manx============== -->
         <!-- Custom color Diana -->
         <Asset>
             <Template>ParticipantColor</Template>
@@ -1011,8 +1357,96 @@
             </Values>
         </Asset>
 
+        <Asset>
+            <Template>ParticipantColor</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000101105</GUID>
+                    <Name>Custom Caeso Color</Name>
+                </Standard>
+                <ParticipantColor>
+                    <ParticipantUIColor>
+                        <Deuteranopia>-6940391</Deuteranopia>
+                        <Protanopia>-6940391</Protanopia>
+                        <Tritanopia>-6940391</Tritanopia>
+                        <None>-6940391</None>
+                    </ParticipantUIColor>
+                    <ParticipantInGameColor>
+                        <Deuteranopia>-6940391</Deuteranopia>
+                        <Protanopia>-6940391</Protanopia>
+                        <Tritanopia>-6940391</Tritanopia>
+                        <None>-6940391</None>
+                    </ParticipantInGameColor>
+                </ParticipantColor>
+                <Locked>
+                    <Scope>Account</Scope>
+                </Locked>
+                <Text>
+                </Text>
+            </Values>
+        </Asset>
         <!-- END: ============== set up new NPC colors for Diana, Valeria, Procruator, Manx============== -->
 
+    </ModOp>
+
+    <!-- Apply tweaked player custom color -->
+    <ModOp Merge="@2000101090/ParticipantColor/*/*">
+        <ModValue Insert="$custom_player_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Dorian -->
+    <ModOp Merge="@31099/Participant/DefaultColor">2000101091</ModOp>
+    <ModOp Merge="@2000101091/ParticipantColor/*/*">
+        <ModValue Insert="$custom_dorian_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Tarragon -->
+    <ModOp Merge="@31100/Participant/DefaultColor">2000101092</ModOp>
+    <ModOp Merge="@2000101092/ParticipantColor/*/*">
+        <ModValue Insert="$custom_tarragon_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Licia Ma -->
+    <ModOp Merge="@31101/Participant/DefaultColor">2000101093</ModOp>
+    <ModOp Merge="@2000101093/ParticipantColor/*/*">
+        <ModValue Insert="$custom_liciama_color" />
+    </ModOp>
+
+
+    <!-- Apply custom colors to Athr -->
+    <ModOp Merge="@31102/Participant/DefaultColor">2000101094</ModOp>
+    <ModOp Merge="@2000101094/ParticipantColor/*/*">
+        <ModValue Insert="$custom_athr_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Zara -->
+    <ModOp Merge="@31103/Participant/DefaultColor">2000101095</ModOp>
+    <ModOp Merge="@2000101095/ParticipantColor/*/*">
+        <ModValue Insert="$custom_zara_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Concordia -->
+    <ModOp Merge="@31104/Participant/DefaultColor">2000101096</ModOp>
+    <ModOp Merge="@2000101096/ParticipantColor/*/*">
+        <ModValue Insert="$custom_concordia_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Neferneru -->
+    <ModOp Merge="@31105/Participant/DefaultColor">2000101097</ModOp>
+    <ModOp Merge="@2000101097/ParticipantColor/*/*">
+        <ModValue Insert="$custom_neferneru_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Calidus -->
+    <ModOp Merge="@31637/Participant/DefaultColor">2000101098</ModOp>
+    <ModOp Merge="@2000101098/ParticipantColor/*/*">
+        <ModValue Insert="$custom_calidus_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Julia -->
+    <ModOp Merge="@31722/Participant/DefaultColor">2000101099</ModOp>
+    <ModOp Merge="@2000101099/ParticipantColor/*/*">
+        <ModValue Insert="$custom_julia_color" />
     </ModOp>
 
     <!-- Apply custom colors to Diana -->
@@ -1041,8 +1475,14 @@
 
     <!-- Apply custom colors to Voada -->
     <ModOp Merge="@37494/Participant/DefaultColor">2000101104</ModOp>
-    <ModOp Merge="@2000101104/ParticipantColor/ParticipantInGameColor/*">
+    <ModOp Merge="@2000101104/ParticipantColor/*/*">
         <ModValue Insert="$custom_voada_color" />
+    </ModOp>
+
+    <!-- Apply custom colors to Caeso -->
+    <ModOp Merge="@37495/Participant/DefaultColor">2000101105</ModOp>
+    <ModOp Merge="@2000101105/ParticipantColor/*/*">
+        <ModValue Insert="$custom_caeso_color" />
     </ModOp>
 
 </ModOps>
