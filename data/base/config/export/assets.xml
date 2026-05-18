@@ -1,5 +1,61 @@
 <ModOps>
 
+    <!--
+
+    GUID Registry
+
+        Custom colors from ewjax:
+        <GUID>2000101000</GUID> 
+        <GUID>2000101001</GUID> 
+        <GUID>2000101002</GUID> 
+        <GUID>2000101003</GUID> 
+        <GUID>2000101004</GUID> 
+        <GUID>2000101005</GUID> 
+        <GUID>2000101006</GUID> 
+        <GUID>2000101007</GUID> 
+
+        Custom colors from Taludas:
+        <GUID>2000101010</GUID> 
+        <GUID>2000101011</GUID> 
+        <GUID>2000101012</GUID> 
+        <GUID>2000101013</GUID> 
+        <GUID>2000101014</GUID> 
+        <GUID>2000101015</GUID> 
+        <GUID>2000101016</GUID> 
+        <GUID>2000101017</GUID> 
+
+        Custom colors from discord user Koda Uzamaki:
+        <GUID>2000101057</GUID> 
+        <GUID>2000101058</GUID> 
+        <GUID>2000101059</GUID> 
+        <GUID>2000101060</GUID> 
+        <GUID>2000101061</GUID> 
+        <GUID>2000101062</GUID> 
+
+        Custom player color (tweakable in mod settings):
+        <GUID>2000101090</GUID> 
+
+        Custom Rival colors:
+        <GUID>2000101091</GUID>
+        <GUID>2000101092</GUID>
+        <GUID>2000101093</GUID>
+        <GUID>2000101094</GUID>
+        <GUID>2000101095</GUID>
+        <GUID>2000101096</GUID>
+        <GUID>2000101097</GUID>
+
+        Custom NPC colors:
+        <GUID>2000101098</GUID>
+        <GUID>2000101099</GUID>
+        <GUID>2000101100</GUID>
+        <GUID>2000101101</GUID>
+        <GUID>2000101102</GUID>
+        <GUID>2000101103</GUID>
+        <GUID>2000101104</GUID>
+        <GUID>2000101105</GUID>
+    -->
+
+
     <!-- Asset ModOp workaround: use it once before you use asset modops -->
     <ModOp Add="/AssetList/Groups[last()]"><Group><Assets /></Group></ModOp>
 
