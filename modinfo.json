@@ -19,7 +19,8 @@
         "player_group": {
             "type": "group",
             "label": "###### Player #####",
-            "collapsed": true
+            "collapsed": true,
+            "default": true
         },
         "custom_player_color": {
             "group": "player_group",
@@ -30,7 +31,8 @@
         "rival_group": {
             "type": "group",
             "label": "###### Rivals #####",
-            "collapsed": true
+            "collapsed": true,
+            "default": true
         },
         "custom_dorian_color": {
             "group": "rival_group",
@@ -71,7 +73,8 @@
         "emperor_group": {
             "type": "group",
             "label": "###### Emperors #####",
-            "collapsed": true
+            "collapsed": true,
+            "default": true
         },
         "custom_calidus_color": {
             "group": "emperor_group",
@@ -87,7 +90,8 @@
         "trader_group": {
             "type": "group",
             "label": "###### Traders - Map Icons #####",
-            "collapsed": true
+            "collapsed": true,
+            "default": true
         },
         "custom_diana_color": {
             "group": "trader_group",
@@ -113,7 +117,8 @@
         "raider_group": {
             "type": "group",
             "label": "###### Raiders #####",
-            "collapsed": true
+            "collapsed": true,
+            "default": true
         },
         "custom_voada_color": {
             "group": "raider_group",
