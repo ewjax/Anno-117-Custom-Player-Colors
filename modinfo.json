@@ -69,6 +69,11 @@
             "label": "Custom Neferneru Color",
             "default": "-16680593"
         },
+        "custom_decimus_color": {
+            "group": "rival_group",
+            "label": "Custom Decimus Color",
+            "default": "-6223019"
+        },
 
         "emperor_group": {
             "type": "group",
@@ -76,15 +81,10 @@
             "collapsed": true,
             "default": true
         },
-        "custom_calidus_color": {
+        "custom_emperor_color": {
             "group": "emperor_group",
-            "label": "Custom Calidus Color",
+            "label": "Custom Calidus/Julia Color",
             "default": "-9294025"
-        },
-        "custom_julia_color": {
-            "group": "emperor_group",
-            "label": "Custom Julia Color",
-            "default": "-16680593"
         },
 
         "trader_group": {
@@ -96,24 +96,29 @@
         "custom_diana_color": {
             "group": "trader_group",
             "label": "Diana - Custom Map Icon Color",
-            "default": "-855310"
+            "default": "-2236963"
         },
         "custom_valeria_color": {
             "group": "trader_group",
             "label": "Valeria - Custom Map Icon Color",
-            "default": "-855310"
+            "default": "-2236963"
         },
         "custom_procurator_color": {
             "group": "trader_group",
             "label": "Procurator - Custom Map Icon Color",
-            "default": "-855310"
+            "default": "-2236963"
         },
         "custom_manx_color": {
             "group": "trader_group",
             "label": "Manx - Custom Map Icon Color",
-            "default": "-855310"
+            "default": "-2236963"
         },
-        
+        "custom_heron_color": {
+            "group": "trader_group",
+            "label": "Heron - Custom Map Icon Color",
+            "default": "-2236963"
+        },
+
         "raider_group": {
             "type": "group",
             "label": "###### Raiders #####",
@@ -128,6 +133,11 @@
         "custom_caeso_color": {
             "group": "raider_group",
             "label": "Caeso - Custom Color",
+            "default": "-6940391"
+        },
+        "custom_kandis_color": {
+            "group": "raider_group",
+            "label": "Kandis - Custom Color",
             "default": "-6940391"
         }
     },
